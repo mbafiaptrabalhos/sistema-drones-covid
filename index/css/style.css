@@ -1,0 +1,119 @@
+@import 'bootstrap.min.css';
+
+body, html, .containerDrone, .row{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .bloco1, .containerHeader{
+      color: #ed145b;
+      height: 100%;
+  }
+  
+  .bloco2{
+      padding-top: 15px;
+  }
+  
+  a{
+	  color: white;
+  }
+  
+  
+  .bloco1 .sidebar-wrapper,
+  body>.navbar-collapse .sidebar-wrapper {
+      position: relative;
+      z-index: 4;
+  }
+  
+  .bloco1 .nav li:hover .nav-link,
+  body>.navbar-collapse .nav li:hover .nav-link, a:hover {
+      color: #ed145b;
+  }
+  
+  .bloco1 .nav .nav-link,
+  body>.navbar-collapse .nav .nav-link {
+      color: white;
+  }
+  
+  .bloco1 .nav .nav-link,
+  body>.navbar-collapse .nav li {
+      height: 35px;
+  }
+  
+  .bloco1:after,
+  .bloco1:before,
+  body>.navbar-collapse:after,
+  body>.navbar-collapse:before {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 2;
+  }
+  
+  .bloco1:after,
+  body>.navbar-collapse:after, .containerHeader {
+      background: black;
+  }
+  
+  .titulo{
+      padding: 15px 15px 0;
+      background-color: #FFFFFF;
+      border-bottom: none !important;
+  }
+  
+  .btn-info{
+      background-color: black;
+      color: #FFFFFF;
+  }
+  
+  .btn-drone:hover {
+      color: #FFFFFF;
+      background-color: #ed145b;
+  }
+  
+  .btn-drone {
+      color: #ed145b;
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-color: #ed145b;
+  }
+  
+  .slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ed145b;
+    cursor: pointer;
+  }
+  
+  body{
+      overflow: hidden;
+  }
+  
+  #mapid { height: 80vh; }

@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "kafka.consumer.group-id",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.consumer.group-id'"
+  },
+  {
+    "name": "kafka.server",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.server'"
+  },
+  {
+    "name": "kafka.drone.info.topic",
+    "type": "java.lang.String",
+    "description": "A description for 'kafka.drone.info.topic'"
+  }
+]}

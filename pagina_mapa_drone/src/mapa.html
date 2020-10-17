@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/x-icon" href="../../index/assets/drone.svg" />
+		<title>Projeto Drone</title>
+		
+		<link href="../../index/css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- Leaflet -->
+		<link rel="stylesheet" href="../../index/vendors/leaflet/leaflet.css" />
+		<script src="../../index/vendors/leaflet/leaflet.js"></script>
+	</head>
+	<body>
+		<div class="header-main">
+			<div class="containerHeader" style="padding-left: 30px; border-bottom: 1px solid rgba(255, 255, 255, 0.2);">
+				<div class="row">
+					<nav class="navbar">
+						<a class="nav-link" href="../../index/index.html">
+							<img src="../../index/assets/droneBranco.png">
+							<strong>Projeto Drone</strong>
+						</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="containerDrone">
+			<div class="row col-xs-12 col-md-12">
+				<div class="col-xs-2 col-md-2 bloco1">
+					<div class="">
+						<div class="sidebar-wrapper">
+							<ul class="nav">
+								<li>
+									<a class="nav-link" href="../../pagina_cadastro_drone/src/cadastro.html">
+										<i class="fa fa-plus"> Cadastro Drone</i>
+									</a>
+								</li>
+								<li>
+									<a class="nav-link" href="./mapa.html">
+										<i class="fa fa-map-marker"> Mapa Drone</i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-10 col-md-10 bloco2" id="bloco2"> 
+					<div id="mapid"></div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+		<script type="text/javascript" src="../../index/js/mapaDrone.js"> </script>
+	</body>
+</html>
