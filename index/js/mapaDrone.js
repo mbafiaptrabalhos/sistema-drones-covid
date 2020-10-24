@@ -56,6 +56,7 @@ obtemDadosDrone = function () {
                 var temperatura = dronesMostrar[i].temperatura;
                 var umidade = dronesMostrar[i].umidade;
                 var email = dronesMostrar[i].email;
+				var tipoLimpeza = dronesMostrar[i].tipoLimpeza;
 
                 // Adiciona marcador
                 var marker = L.marker([latitude, longitude]).addTo(mymap);
@@ -67,9 +68,11 @@ obtemDadosDrone = function () {
                 Latitude: ${latitude}
                 Longitude: ${longitude}
                 Temperatura: ${temperatura}
-                Umidade: ${umidade} </br>
+                Umidade: ${umidade}
+                Tipo Limpeza: ${tipoLimpeza} </br>
                 Email: ${email}
                         `).openPopup();
+
 
             }
         }
