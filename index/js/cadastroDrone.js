@@ -21,7 +21,7 @@ enviaDadosDrone = function () {
   var http = new XMLHttpRequest();
 
   //URL DO MICROSERVICE PRODUTOR
-  var url = 'http://localhost:8080/api/producer/create';
+  var url = 'http://localhost:8080/api/drones';
 
   http.open('POST', url, true);
   http.setRequestHeader('Content-type', 'application/json');

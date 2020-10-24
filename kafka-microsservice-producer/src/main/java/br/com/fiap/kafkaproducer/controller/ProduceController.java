@@ -13,7 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/producer")
+@RequestMapping("/drones")
 @CrossOrigin(origins = "*")
 public class ProduceController {
 
@@ -23,7 +23,7 @@ public class ProduceController {
         this.droneMessageProducer = droneMessageProducer;
     }
 
-    @PostMapping("drone-info")
+    @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     @ApiOperation(value = "Mensagem em Json com informações do Drone", response = DroneInfo.class)
     @ApiResponses(

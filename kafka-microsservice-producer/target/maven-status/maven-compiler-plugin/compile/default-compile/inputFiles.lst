@@ -1,0 +1,8 @@
+C:\Users\Jonathas\eclipse-workspace\fiap\sistema-drones-covid\kafka-microsservice-producer\src\main\java\br\com\fiap\kafkaproducer\config\KafkaTopicConfig.java
+C:\Users\Jonathas\eclipse-workspace\fiap\sistema-drones-covid\kafka-microsservice-producer\src\main\java\br\com\fiap\kafkaproducer\config\SwaggerUiWebMvcConfigure.java
+C:\Users\Jonathas\eclipse-workspace\fiap\sistema-drones-covid\kafka-microsservice-producer\src\main\java\br\com\fiap\kafkaproducer\KafkaProducerApplication.java
+C:\Users\Jonathas\eclipse-workspace\fiap\sistema-drones-covid\kafka-microsservice-producer\src\main\java\br\com\fiap\kafkaproducer\model\DroneInfo.java
+C:\Users\Jonathas\eclipse-workspace\fiap\sistema-drones-covid\kafka-microsservice-producer\src\main\java\br\com\fiap\kafkaproducer\producer\DroneMessageProducer.java
+C:\Users\Jonathas\eclipse-workspace\fiap\sistema-drones-covid\kafka-microsservice-producer\src\main\java\br\com\fiap\kafkaproducer\config\KafkaProducerConfig.java
+C:\Users\Jonathas\eclipse-workspace\fiap\sistema-drones-covid\kafka-microsservice-producer\src\main\java\br\com\fiap\kafkaproducer\business\ValidaDadosDrone.java
+C:\Users\Jonathas\eclipse-workspace\fiap\sistema-drones-covid\kafka-microsservice-producer\src\main\java\br\com\fiap\kafkaproducer\controller\ProduceController.java
