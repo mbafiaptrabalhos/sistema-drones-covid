@@ -10,10 +10,7 @@
  
 Sistema é uma solução para coleta de dados de localização em tempo real de drones responsáveis por limpeza de ambientes. 
 De minuto em minuto o sistema envia um e-mail com as informações dos drones cadastrados, desde que a temperatura seja maior ou igual a 35, menor ou igual a 0, ou que a umidade do ar seja menor ou igual a 15%.
-
-
-![diagrama](diagrama.png)
-  
+ 
 
 ## Integrantes
 
