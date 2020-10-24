@@ -15,7 +15,9 @@ enviaDadosDrone = function () {
   var umidade = document.getElementById("sliderUmidade").value;
   var email = document.getElementById("email").value;
   var habilitaLocalizacao = document.getElementById("habilitaLocalizacao").checked;
-
+  var select = document.getElementById('tipoLimpeza');
+  var tipoLimpeza = select.options[select.selectedIndex].value;
+  
   var http = new XMLHttpRequest();
 
   //URL DO MICROSERVICE PRODUTOR
@@ -31,7 +33,8 @@ enviaDadosDrone = function () {
     "temperatura": temperatura,
     "umidade": umidade,
     "email": email,
-    "habilitaLocalizacao": habilitaLocalizacao
+    "habilitaLocalizacao": habilitaLocalizacao,
+	"tipoLimpeza": tipoLimpeza
   }
 
   var params = JSON.stringify(drone);
