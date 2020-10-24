@@ -14,6 +14,7 @@ public class DroneInfo {
 	private String umidade;
 	private String email;
 	private Boolean habilitaLocalizacao;
+	private String tipoLimpeza;
 
 	public String getId() {
 		return id;
@@ -75,5 +76,13 @@ public class DroneInfo {
 
 	public void setHabilitaLocalizacao(Boolean habilitaLocalizacao) {
 		this.habilitaLocalizacao = habilitaLocalizacao;
+	}
+
+	public String getTipoLimpeza() {
+		return tipoLimpeza;
+	}
+
+	public void setTipoLimpeza(String tipoLimpeza) {
+		this.tipoLimpeza = tipoLimpeza;
 	}
 }
