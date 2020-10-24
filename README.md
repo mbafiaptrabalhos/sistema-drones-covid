@@ -60,7 +60,20 @@ git clone https://github.com/mbafiaptrabalhos/sistema-drones-covid.git
 
 ```
 
-  
+### Documentação Swagger
+
+microsservice-producer
+
+```
+http://localhost:8080/api/swagger-ui/index.html#/
+```
+
+
+microsservice-consumer-b
+
+```
+http://localhost:8081/api/swagger-ui/index.html#/
+```
 
 ### Running  
 
