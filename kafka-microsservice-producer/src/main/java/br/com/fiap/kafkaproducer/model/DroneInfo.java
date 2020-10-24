@@ -20,8 +20,8 @@ public class DroneInfo {
     private String email;
     @ApiModelProperty(value = "Valor TRUE habilita rastrear no mapa a localização FALSE desabilita", dataType = "String")
     private Boolean habilitaLocalizacao;
-
-    
+    @ApiModelProperty(value = "Identifica o tipo da limpeza a ser realizada", dataType = "String")
+    private String tipoLimpeza;
 
     public Long getId() {
         return id;
@@ -77,5 +77,13 @@ public class DroneInfo {
 
     public void setHabilitaLocalizacao(Boolean habilitaLocalizacao) {
         this.habilitaLocalizacao = habilitaLocalizacao;
+    }
+
+    public String getTipoLimpeza() {
+        return tipoLimpeza;
+    }
+
+    public void setTipoLimpeza(String tipoLimpeza) {
+        this.tipoLimpeza = tipoLimpeza;
     }
 }

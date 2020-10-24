@@ -1,5 +1,6 @@
 package br.com.fiap.kafkaproducer.controller;
 
+import br.com.fiap.kafkaproducer.business.ValidaDadosDrone;
 import br.com.fiap.kafkaproducer.model.DroneInfo;
 import br.com.fiap.kafkaproducer.producer.DroneMessageProducer;
 import io.swagger.annotations.ApiOperation;
@@ -32,7 +33,7 @@ public class ProduceController {
             }
     )
     public ResponseEntity createProducer(@RequestBody DroneInfo droneInfo) {
-        droneMessageProducer.sendMessage(droneInfo);
+        droneMessageProducer.sendMessage(ValidaDadosDrone.validate(droneInfo));
         return ResponseEntity.ok(droneInfo);
     }
 }
