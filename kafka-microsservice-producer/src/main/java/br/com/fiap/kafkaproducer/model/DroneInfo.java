@@ -1,14 +1,27 @@
 package br.com.fiap.kafkaproducer.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+@ApiModel(value = "DroneInfo", description = "Descreve um modelo da mensagem enviada pelos Drones")
 public class DroneInfo {
 
+    @ApiModelProperty(value = "identificador do Drone", dataType = "Integer")
     private Long id;
+    @ApiModelProperty(value = "A  latitude é a distância ao Equador medida ao longo do meridiano de Greenwich.", dataType = "String")
     private String latitude;
+    @ApiModelProperty(value = "A longitude é a distância ao meridiano de Greenwich medida ao longo do Equador.", dataType = "String")
     private String longitude;
+    @ApiModelProperty(value = "temperatura medida da região onde o drone está sobrevoando", dataType = "String")
     private String temperatura;
+    @ApiModelProperty(value = "umidade do ar da região onde o drone está sobrevoando", dataType = "String")
     private String umidade;
+    @ApiModelProperty(value = "E-mail para contato", dataType = "String")
     private String email;
+    @ApiModelProperty(value = "Valor TRUE habilita rastrear no mapa a localização FALSE desabilita", dataType = "String")
     private Boolean habilitaLocalizacao;
+    @ApiModelProperty(value = "Identifica o tipo da limpeza a ser realizada", dataType = "String")
+    private String tipoLimpeza;
 
     public Long getId() {
         return id;
@@ -64,5 +77,13 @@ public class DroneInfo {
 
     public void setHabilitaLocalizacao(Boolean habilitaLocalizacao) {
         this.habilitaLocalizacao = habilitaLocalizacao;
+    }
+
+    public String getTipoLimpeza() {
+        return tipoLimpeza;
+    }
+
+    public void setTipoLimpeza(String tipoLimpeza) {
+        this.tipoLimpeza = tipoLimpeza;
     }
 }
